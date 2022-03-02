@@ -19,7 +19,7 @@ useEffect(() => {
 }, []);
 
 useEffect(() => {
-    storeCart(JSON.stringify(cart));
+    storeCart(cart);
 }, [cart]);
 
     return (
